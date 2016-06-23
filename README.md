@@ -65,7 +65,7 @@ GET /api/getIdentifiers?source=browserstack
 https://www.browserstack.com/automate/php and 
 https://www.browserstack.com/automate/rest-api
 
-In order to use these APIs you'll need a username and an access key. To get one you can sign up for a free trail at browserstack.com. When this tool is deployed we are going to use actual accounted sponsored by BrowserStack.
+In order to use these APIs you'll need a username and an access key. To get one you can sign up for a free trail at browserstack.com. When this tool is deployed we are going to use actual account sponsored by BrowserStack.
 
 ###Tools we need to use:
 https://github.com/facebook/php-webdriver
