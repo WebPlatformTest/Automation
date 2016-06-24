@@ -1,5 +1,26 @@
 {
+    "name": "html5test/automate",
+
+    "description": "Automation for generating reports for HTML5test.com",
+    "homepage": "https://html5test.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Niels Leenheer",
+            "email": "niels@leenheer.nl",
+            "role": "Developer"
+        }
+    ],
+
     "require": {
-        "facebook/webdriver": "^1.1"
+        "php": ">=5.4.0",
+        "facebook/webdriver": "^1.1",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "HTML5test\\Automate\\": [ "src/" ]
+        }
     }
 }

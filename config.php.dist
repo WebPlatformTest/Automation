@@ -1,0 +1,13 @@
+<?php
+
+$config = [
+    'html5test' => [
+        'endpoint' => 'http://alpha.html5test.com/api/'
+    ],
+
+    'browserstack' => [
+        'username' => '*****',
+        'accesskey' => '*****',
+        'sessions' => 2
+    ]
+];
