@@ -69,6 +69,7 @@ class BrowserStack {
 
         $browser->project = $this->project;
         $browser->build = $this->build;
+        $browser->realMobile = true;
 
         try {
             echo "  Connecting to remote session\n";
