@@ -2,7 +2,7 @@
 
 $config = [
     'html5test' => [
-        'endpoint' => 'http://alpha.html5test.com/api/'
+        'endpoint' => 'https://html5test.com/api/'
     ],
 
     'browserstack' => [
