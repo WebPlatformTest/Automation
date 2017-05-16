@@ -75,7 +75,7 @@ class BrowserStack {
             echo "  Connecting to remote session\n";
             $web_driver = RemoteWebDriver::create(
                 "https://" . $this->config['username'] . ":" . $this->config['accesskey'] . "@hub-cloud.browserstack.com/wd/hub",
-                $browser,
+                (array) $browser,
                 1200000
             );
 
