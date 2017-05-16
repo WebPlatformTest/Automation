@@ -11,7 +11,7 @@ class HTML5test {
 
         $this->client = new Client([
             'base_uri'  => $this->config['endpoint'],
-            'timeout'   => 5.0
+            'timeout'   => 20.0
         ]);
     }
 
